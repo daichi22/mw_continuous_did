@@ -1,0 +1,40 @@
+# Data (large files)
+data_raw/
+data/*.xlsx
+*.xlsx
+
+# Config (secrets)
+config/estat_api_key.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Output (reproducible)
+output/
+
+# Papers (large/source artifacts)
+papers/pdf_raw/
+papers/*_images/
+
+# Local agent settings
+.claude/settings.local.json
+
+# Temporary
+tmp_*
+*.tmp
